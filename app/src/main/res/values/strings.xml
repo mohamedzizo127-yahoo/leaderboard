@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">GADS Leaderboard</string>
+    <string name="title_activity_main">Leader Board</string>
+    <string name="tab_text_1">Learning Leaders</string>
+    <string name="tab_text_2">Skill IQ Leaders</string>
+    <string name="submit">Submit</string>
+    <string name="information_learning">%1$s learning hours, %2$s</string>
+    <string name="information_skill">%1$s skill IQ Score, %2$s</string>
+    <string name="title_activity_submission">Project Submission</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="github_link">Project on GitHub {Link}</string>
+    <string name="error_message">Enter All Field</string>
+    <string name="yes">Yes</string>
+    <string name="cancel_message">Be sure and try Again</string>
+    <string name="suring_message">Are you sure ?</string>
+    <string name="close">close</string>
+    <string name="submission_successful">Submission Successful</string>
+    <string name="submission_not_successful">Submission not Successful</string>
+    <string name="retry">Retry</string>
+
+
+</resources>
