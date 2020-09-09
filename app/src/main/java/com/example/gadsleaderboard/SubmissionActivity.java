@@ -109,8 +109,6 @@ public class SubmissionActivity extends AppCompatActivity {
     }
 
     private void submitRequest() {
-        showResultMessage(R.layout.error_dialog);
-
         GoogleFormService formService = ServiceBuilder.buildService(GoogleFormService.class);
             Call<Void> voidCall = formService.postGoogleForm(GOOGLE_FORM_URL, mEmail, mFirstName, mLastName, mGitLink);
             voidCall.enqueue(new Callback<Void>() {
