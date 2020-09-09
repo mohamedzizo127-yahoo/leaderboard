@@ -44,7 +44,7 @@ public class SubmissionActivity extends AppCompatActivity {
         lastNameEt = findViewById(R.id.etLastNameId);
         emailAddressEt = findViewById(R.id.etEmailAddressId);
         gitLinkEt = findViewById(R.id.etGitHubLinkId);
-        gitLinkEt.setText("");
+        gitLinkEt.setText("https://github.com/mohamedzizo127-eng/GADS_Leaderboard.git");
         backBtn = findViewById(R.id.backImageButton);
         backBtn.setOnClickListener(new View.OnClickListener() {
             @Override
